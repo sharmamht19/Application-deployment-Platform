@@ -8,6 +8,19 @@ The primary purpose of the Distributed IoT Application Platform is to enable org
 
 **Source Code:** [Link to the Source Code](https://github.com/IASBrew/ias-iot-project)
 
-**Demo Video:** [Link to the Demo Video]()
+## Demo Video
+Click the video below to watch the demo:
 
-Feel free to explore the source code repository and watch the demo video to get a better understanding of the Distributed IoT Application Platform.
+![Demo Video](demo-video.mp4)
+
+## Communication Diagram
+The following diagram illustrates the communication flow in the Distributed IoT Application Platform:
+
+![Communication Diagram](communication-diagram.png)
+
+## Architecture Diagram
+The architecture diagram showcases the components and their interactions in the Distributed IoT Application Platform:
+
+![Architecture Diagram](architecture-diagram.png)
+
+Feel free to explore the source code repository, watch the demo video, and refer to the communication and architecture diagrams to get a better understanding of the Distributed IoT Application Platform.
