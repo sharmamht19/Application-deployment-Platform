@@ -6,7 +6,7 @@ The platform is designed to dynamically understand the application requirements 
 
 The primary purpose of the Distributed IoT Application Platform is to enable organizations to deploy and manage large-scale IoT solutions securely and in a scalable manner. It provides end-to-end functionality, including device and application connectivity, device and data management, data analysis, and security features. The platform empowers users to gain real-time insights, optimize processes, and automate tasks, leading to improved operational efficiency and enhanced decision-making.
 
-**Source Code:** [Link to the Source Code]()
+**Source Code:** [Link to the Source Code](https://github.com/IASBrew/ias-iot-project)
 
 **Demo Video:** [Link to the Demo Video]()
 
