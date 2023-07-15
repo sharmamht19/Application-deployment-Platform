@@ -16,11 +16,11 @@ Click the video below to watch the demo:
 ## Communication Diagram
 The following diagram illustrates the communication flow in the Distributed IoT Application Platform:
 
-![Communication Diagram](communication-diagram.png)
+![Communication Diagram](https://github.com/sharmamht19/Distributed-IoT-Application-Platform/blob/main/Images/Communication%20Model.jpg)
 
 ## Architecture Diagram
 The architecture diagram showcases the components and their interactions in the Distributed IoT Application Platform:
 
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](https://github.com/sharmamht19/Distributed-IoT-Application-Platform/blob/main/Images/Architecture%20Diagram.jpg)
 
 Feel free to explore the source code repository, watch the demo video, and refer to the communication and architecture diagrams to get a better understanding of the Distributed IoT Application Platform.
