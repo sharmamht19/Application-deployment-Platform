@@ -11,7 +11,7 @@ The primary purpose of the Distributed IoT Application Platform is to enable org
 ## Demo Video
 Click the video below to watch the demo:
 
-![Demo Video](demo-video.mp4)
+![Demo Video](demo/demo-video.mp4)
 
 ## Communication Diagram
 The following diagram illustrates the communication flow in the Distributed IoT Application Platform:
