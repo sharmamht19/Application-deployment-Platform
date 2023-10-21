@@ -1,6 +1,8 @@
-# Distributed IoT Application Platform
+# Unified Digital Application Platform (UDAP)
 
-The Distributed IoT Application Platform makes it easy for users to set up and manage their IoT projects. It connects effortlessly with different sensors and uses the oneM2M platform to collect data. Designed to be user-friendly, this platform offers flexible settings, strong security, and smart resource use.
+The Unified Digital Application Platform (UDAP) streamlines the process for users to set up and manage digital applications across diverse domains. With seamless integration capabilities, it connects effortlessly with various data sources and leverages the oneM2M platform for comprehensive data collection. Designed for optimal user experience, UDAP boasts flexible configurations, robust security measures, and efficient resource utilization.
+
+The ``Unified Digital Application Platform (UDAP)`` is named for its ability to seamlessly connect and manage various digital systems. 'Unified' emphasizes its **cohesive approach to integration**, while 'Digital Application' underscores its compatibility with a broad spectrum of digital solutions. As a 'Platform', it ensures robustness and flexibility for all your digital project needs
 
 ## Table of Contents
 
@@ -21,11 +23,18 @@ The Distributed IoT Application Platform makes it easy for users to set up and m
 
 ## Introduction
 
-The Distributed IoT Application Platform is a project that aims to design and develop a platform where users can run and host their IoT-based applications. This platform provides the capability to interact with various sensors independent of their type, making it flexible and adaptable to different IoT scenarios. The project leverages the oneM2M platform for data gathering, ensuring compatibility with various protocols.
+**Unified Digital Application Platform (UDAP)** simplifies the process of running and managing digital applications. It allows users to:
 
-The platform is designed to dynamically understand the application requirements through configuration files. It intelligently selects the most efficient workflows for building and deploying IoT applications, optimizing performance and resource utilization. This dynamic approach allows users to easily adapt and customize the platform based on their specific needs.
+- **Connect Easily**: With a range of sensors, it's versatile for various digital scenarios.
+- **Gather Data**: Using the oneM2M platform, it collects data from diverse sources.
+- **Dynamic Configuration**: UDAP understands application needs from configuration files, ensuring optimal setup and performance.
+- **User Flexibility**: Adjustments and settings can be modified to suit individual requirements.
 
-The primary purpose of the Distributed IoT Application Platform is to enable organizations to deploy and manage large-scale IoT solutions securely and in a scalable manner. It provides end-to-end functionality, including device and application connectivity, device and data management, data analysis, and security features. The platform empowers users to gain real-time insights, optimize processes, and automate tasks, leading to improved operational efficiency and enhanced decision-making.
+Its primary mission is to assist businesses in deploying and overseeing large digital projects. Features include:
+
+- **Device Connectivity**: Seamless integration with multiple devices.
+- **Data Management**: Efficient handling and storage of collected data.
+- **Real-time Insights**: Provides valuable, timely information for better decision-making.
 
 ## Features
 
@@ -148,31 +157,56 @@ The project is organized as follows:
 
 ### 1. Monitoring Service
 
-- **Description:** Monitors the health and performance of services. Uses server-side APIs provided by `ThingsBoard.io` to oversee and control IoT entities securely.
+- Monitors performance metrics of platform services.
+- Checks the `health status of each module` on each interval.
+- Sends out notifications on failures and provisions new instances.
+- Offers insights on usage trends and resource consumption.
 
 ### 2. Load Balancing Service
 
-- **Description:** Distributes incoming traffic across the platform's services, ensuring optimal performance and efficient resource utilization.
+- Uniformly distributes loads for optimal application deployment.
+- Monitors CPU/RAM usage and can request additional nodes during high demand.
 
 ### 3. Node/VM Manager and Deployment Manager
 
-- **Description:** Manages node-related operations and their lifecycle. Oversees deployment of services and applications on nodes or VMs.
+- Initializes nodes with set configurations and monitors their statuses.
+- Handles resource allocation for service initialization and manages post-lifecycle resource deallocation.
 
-### 4. API Manager
+### 4. API Manager and Communication Manager
 
-- **Description:** Manages the API endpoints and routing, ensuring a streamlined interface for both internal and external communications.
+- Manages and routes API access, sets rate limits, and assists developers in API selection.
+- Manages data interchange between devices and components, ensuring seamless communication.
 
-### 5. Communication Manager
+### 5. Deployment Manager and Bootstrap Service
 
-- **Description:** Responsible for managing inter-service communication, maintaining data integrity and reliability.
+- Manages application `setups and tracks deployment statuses`.
+- Initiates platform setup by identifying necessary files and starting required services.
 
-### 6. Deployment Manager and Bootstrap Service
+### 6. Sensor Manager
 
-- **Description:** Handles initial platform setups, configurations, and the proper deployment of services.
+- Manages sensor interactions including registration and `live data streaming`.
+- Incorporates Logger for `traffic monitoring and an API Gateway for handling service requests.
 
-### 7. Sensor Manager
+### 7. Notification Service
 
-- **Description:** Manages sensor integrations and interactions. Uses `OneM2M` for standardizing M2M communications and integrates with `ThingsBoard` via MQTT for data collection and visualization.
+- Manages and dispatches notifications to users.
+- Integrates with `Kafka` for message processing.
+- Utilizes email credentials and configuration files.
+- Communicates with an `SMTP server` for email-based notifications.
+
+### 8. Analytics Service
+
+- Processes and analyzes sensor data.
+- Consists of modules like `Analytics.py` for processing and `graphs.py` for visualization.
+- Manages user data and sensor metadata through respective databases.
+- Provides insights to the User Dashboard.
+
+### 9. Logger Service
+
+- Responsible for logging system events and messages.
+- Integrates with Kafka to consume log messages from the `topic_logger` topic.
+- Logs are stored in the `Logger DB`.
+- Provides an interface for users or admins to view logs.
 
 ## Communication Diagram
 
