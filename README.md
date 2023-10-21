@@ -16,9 +16,8 @@ The Distributed IoT Application Platform makes it easy for users to set up and m
 10. [Architecture Diagram](#architecture-diagram)
 11. [Future Scope](#future-scope)
 12. [Getting Started](#getting-started)
-13. [Contributing](#contributing)
-14. [License](#license)
-15. [Contact](#contact)
+13. [License](#license)
+14. [Contributing](#contributing)
 
 ## Introduction
 
@@ -246,7 +245,7 @@ Welcome to our IoT platform, designed to manage, process, and visualize data fro
 
 By following the above steps, you should have the platform up and running, ready to process and visualize data from your IoT devices. For further assistance, refer to our detailed documentation or reach out to our support team.
 
-## Contributions
+## contributing
 
 Feel free to explore the source code repository, watch the demo video, and refer to the communication and architecture diagrams to get a better understanding of the Distributed IoT Application Platform.
 
