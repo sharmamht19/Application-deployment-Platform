@@ -13,7 +13,7 @@ The ``Distributed Digital Application Platform (DDAP)`` is named for its ability
 4. [Non-Functional Requirements](#non-functional-requirements)
 5. [External Interface Requirements](#external-interface-requirements)
 6. [Folder Structure](#folder-structure)
-7. [Microservices Details](#microservices-details)
+7. [Microservices Details](#microservices)
 8. [Demo Video](#demo-video)
 9. [Communication Diagram](#communication-diagram)
 10. [Architecture Diagram](#architecture-diagram)
@@ -213,13 +213,13 @@ The project is organized as follows:
 
 The communication diagram provides a clear representation of the information flow within the Distributed IoT Application Platform. It emphasizes the interactions between various components and services to ensure smooth data transmission and processing.
 
-![Communication Diagram](https://github.com/bhanujggandhi/iot-platform-project/blob/main/artifacts/Communication%20Model.jpg)
+![Communication Diagram](https://github.com/sharmamht19/Distributed-Digital-Application-Platform/blob/main/Images/Communication%20Model.jpg)
 
 ## Architecture Diagram
 
 To understand the structural layout and interdependencies of the platform components, refer to the architecture diagram. It gives a comprehensive view of the system design, making it easier for users and developers to grasp the platform's intricacies.
 
-![Architecture Diagram](https://github.com/bhanujggandhi/iot-platform-project/blob/main/artifacts/Architecture%20Diagram.jpg)
+![Architecture Diagram](https://github.com/sharmamht19/Distributed-Digital-Application-Platform/blob/main/Images/Architecture%20Diagram.jpg)
 
 ## Demo Video
 
