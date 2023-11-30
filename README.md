@@ -1,9 +1,9 @@
-# Distributed Digital Application Platform (DDAP)
+# Application Deployment Platform 
 [Code Base Link](https://github.com/bhanujggandhi/iot-platform-project)
 
-The Distributed Digital Application Platform (DDAP) streamlines the process for users to set up and manage digital applications across diverse domains. With seamless integration capabilities, it connects effortlessly with various data sources and leverages the oneM2M platform for comprehensive data collection. Designed for optimal user experience, DDAP boasts flexible configurations, robust security measures, and efficient resource utilization.
+The Application deployment Platform  streamlines the process for users to set up and manage digital applications across diverse domains. With seamless integration capabilities, it connects effortlessly with various data sources and leverages the oneM2M platform for comprehensive data collection. Designed for optimal user experience,  boasts flexible configurations, robust security measures, and efficient resource utilization.
 
-The ``Distributed Digital Application Platform (DDAP)`` is named for its ability to seamlessly connect and manage various digital systems. 'Distributed' emphasizes its **cohesive approach to integration**, while 'Digital Application' underscores its compatibility with a broad spectrum of digital solutions. As a 'Platform', it ensures robustness and flexibility for all your digital project needs
+The ``Application deployment Platform `` is named for its ability to seamlessly connect and manage various digital systems. 'Distributed' emphasizes its **cohesive approach to integration**, while 'Digital Application' underscores its compatibility with a broad spectrum of digital solutions. As a 'Platform', it ensures robustness and flexibility for all your digital project needs
 
 ## Table of Contents
 
@@ -24,11 +24,11 @@ The ``Distributed Digital Application Platform (DDAP)`` is named for its ability
 
 ## Introduction
 
-**Distributed Digital Application Platform (DDAP)** simplifies the process of running and managing digital applications. It allows users to:
+**Application deployment Platform ** simplifies the process of running and managing digital applications. It allows users to:
 
 - **Connect Easily**: With a range of sensors, it's versatile for various digital scenarios.
 - **Gather Data**: Using the oneM2M platform, it collects data from diverse sources.
-- **Dynamic Configuration**: DDAP understands application needs from configuration files, ensuring optimal setup and performance.
+- **Dynamic Configuration**:  understands application needs from configuration files, ensuring optimal setup and performance.
 - **User Flexibility**: Adjustments and settings can be modified to suit individual requirements.
 
 Its primary mission is to assist businesses in deploying and overseeing large digital projects. Features include:
