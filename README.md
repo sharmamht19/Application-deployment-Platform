@@ -1,5 +1,5 @@
 # Application Deployment Platform 
-[Code Base Link](https://github.com/bhanujggandhi/iot-platform-project)
+<!-- [Code Base Link](https://github.com/bhanujggandhi/iot-platform-project) -->
 
 The Application deployment Platform  streamlines the process for users to set up and manage digital applications across diverse domains. With seamless integration capabilities, it connects effortlessly with various data sources and leverages the oneM2M platform for comprehensive data collection. Designed for optimal user experience,  boasts flexible configurations, robust security measures, and efficient resource utilization.
 
@@ -24,7 +24,7 @@ The ``Application deployment Platform `` is named for its ability to seamlessly 
 
 ## Introduction
 
-**Application deployment Platform ** simplifies the process of running and managing digital applications. It allows users to:
+**Application deployment Platform** simplifies the process of running and managing digital applications. It allows users to:
 
 - **Connect Easily**: With a range of sensors, it's versatile for various digital scenarios.
 - **Gather Data**: Using the oneM2M platform, it collects data from diverse sources.
@@ -213,13 +213,13 @@ The project is organized as follows:
 
 The communication diagram provides a clear representation of the information flow within the Distributed IoT Application Platform. It emphasizes the interactions between various components and services to ensure smooth data transmission and processing.
 
-![Communication Diagram](https://github.com/sharmamht19/Distributed-Digital-Application-Platform/blob/main/Images/Communication%20Model.jpg)
+![Communication Diagram](Documentation/artifacts/Communication-Model.jpg)
 
 ## Architecture Diagram
 
 To understand the structural layout and interdependencies of the platform components, refer to the architecture diagram. It gives a comprehensive view of the system design, making it easier for users and developers to grasp the platform's intricacies.
 
-![Architecture Diagram](https://github.com/sharmamht19/Distributed-Digital-Application-Platform/blob/main/Images/Architecture%20Diagram.jpg)
+![Architecture Diagram](Documentation/artifacts/Architecture-Diagram.jpg)
 
 ## Demo Video
 
